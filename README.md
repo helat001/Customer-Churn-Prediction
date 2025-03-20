@@ -4,13 +4,13 @@
 ## Project Overview
 This project analyzes customer churn patterns using exploratory data analysis, machine learning (XGBoost), and Tableau visualizations. We identify key drivers of churn and provide actionable business recommendations to improve customer retention.
 
-**Key Findings**:
+** Key Findings**:
 - 27% churn rate with significant class imbalance
 - Tenure and contract type are strongest churn predictors
 - High monthly charges correlate with churn risk
 - SHAP values reveal interpretable feature impacts
 
-## 📂 Repository Structure
+## Repository Structure
 .
 ├── data/
 │ ├── telco_churn.csv # Raw dataset
@@ -28,7 +28,7 @@ This project analyzes customer churn patterns using exploratory data analysis, m
 └── videos/
 └── walkthrough.mp4 # Screen recording & voice memo
 
-## 🔍 Analysis Highlights
+## Analysis Highlights
 
 ### 1. Churn Distribution
 ![Churn Distribution](images/churn_distribution.png)
@@ -60,7 +60,7 @@ This project analyzes customer churn patterns using exploratory data analysis, m
 - Red points (right): Increase churn probability
 - Blue points (left): Decrease churn probability
 
-## 🎯 Business Recommendations
+## Business Recommendations
 1. **Contract Incentives**
    - Offer discounts for 1/2-year contracts
    - Auto-renewal benefits
@@ -81,12 +81,12 @@ This project analyzes customer churn patterns using exploratory data analysis, m
    - Predictive churn scoring
    - Personalized retention offers
 
-## 📊 Tableau Visualizations
+## Tableau Visualizations
 | Churn Distribution | Key Drivers | Tenure Analysis |
 |--------------------|-------------|-----------------|
 | ![Tableau1](images/Tableau%20Churn%20Distribution%20(Screenshot).png) | ![Tableau2](images/Tableau%20Key%20Drivers%20of%20Churn(Screenshot).png) | ![Tableau3](images/Tableau%20Tenure%20vs%20Churn(Screenshot).png) |
 
-## 🎥 Video Walkthrough
+## Video Walkthrough
 [Screen Recording & Voice Memo](videos/walkthrough.mp4) demonstrating:
 - Data exploration process
 - Model training workflow
